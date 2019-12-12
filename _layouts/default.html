@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+  {% include head.html %}
 
   <body>
 
@@ -8,12 +9,17 @@
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-    {{content}}
+    
+    {% include side-panel.html %}
+    <h1> This is a little test</h1>
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
+            {{ content }}
+            {% include footer.html %}
         </div>
     </div>
-
+    
+    {% include external.html %}
     
   </body>
 
