@@ -1,11 +1,11 @@
 # Basic
-title: Wei Xiao
-subtitle: xiao , my dear son ^_^
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">住口！无耻老贼</a>
+title: Yanjie Li
+subtitle: GET BUSY LIVING, OR GET BUSY DYING
+welcome_message: <a href="#" target="_blank">住口！无耻老贼</a>
 description: 你这是馋他的身子
-creator: <a href="http://onev.cat">@onevcat</a>
+creator: <a href="#"></a>
 
-url: "http://vno.onevcat.com"
+url: "https://leeyegy.github.io/me/"
 
 permalink: /:year/:month/:title/
 
@@ -37,11 +37,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
+    weibo: leeyegy
+    github: leeyegy
+    twitter: leeyegy
     gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    mail: leeyegy@gmail.com
 
 # Google Analytics
 ga:
