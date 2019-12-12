@@ -1,7 +1,7 @@
 # Basic
 title: Yanjie Li
 subtitle: GET BUSY LIVING, OR GET BUSY DYING
-welcome_message: <a href="#" target="_blank">A researcher on Computer Science!</a>
+welcome_message: <a href="#" target="_blank">A researcher on Computer Science</a>
 creator: <a href="#"></a>
 
 url: "https://leeyegy.github.io/me/"
@@ -12,7 +12,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: purple
 
 # The blog button should not be removed.
 blog_button:
