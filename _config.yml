@@ -2,9 +2,9 @@
 title: Yanjie Li
 subtitle: GET BUSY LIVING, OR GET BUSY DYING
 welcome_message: <a href="#" target="_blank">A researcher on Computer Science</a>
-creator: <a href="#"></a>
+creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://leeyegy.github.io/me/"
+url: "https://leeyegy.github.io/"
 
 permalink: /:year/:month/:title/
 
@@ -12,7 +12,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: slate
+cover_color: purple
 
 # The blog button should not be removed.
 blog_button:
@@ -21,8 +21,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: About me, description: About me, url: 'https://leeyegy.github.io/me/
-'}
+    - {title: About me, description: About me, url: 'https://leeyegy.github.io/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
