@@ -22,6 +22,20 @@ Using denoiser to defend which is to constraint the difference between the l-th 
 defend by change loss function in order to bypass the amplification effect of adversarial noise.
 
 ### What's the main idea/contribution?
+
+>Net architecture
+
+|Model Name|Intro|Key Words|
+|---|---|---|
+|DUNET (denoising U-net)|modify DAE with U-net and proposed the DUNET|ladder net,<bar>lateral connection, residual learning|
+> Denoiser
+
+|Model Name|Intro| Type|
+|---|---|---|
+|PGD (pixel guided denoiser)|amplification effect;|unsupervised|
+|HGD (high-level representation guided denoiser)||unsupervised|
+|CGD (class label guided denoiser)||supervised|
+
 ### How does it perform(Experiment)?
 ### Anything improvable or eye-opening?
 
