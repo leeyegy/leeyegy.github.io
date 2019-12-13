@@ -19,7 +19,7 @@ Using denoiser to defend which is to constraint the difference between the l-th 
 
 >**Statement two:**
 
-defend by change loss function in order to bypass the amplification effect of adversarial noise.
+Defend by changing loss function in order to bypass the amplification effect of adversarial noise.
 
 ### What's the main idea/contribution?
 
@@ -28,6 +28,7 @@ defend by change loss function in order to bypass the amplification effect of ad
 |Model Name|Intro|Key Words|
 |---|---|---|
 |DUNET (denoising U-net)|modify DAE with U-net and proposed the DUNET|ladder net,<br>lateral connection, <br>residual learning|
+
 > Denoiser
 
 |Model Name|Intro| Type|
