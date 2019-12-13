@@ -4,9 +4,9 @@ title: Hello World - Vno
 date: 2016-02-16 15:32:24.000000000 +09:00
 ---
 
-@[TOC]
+@[TOC](some)
 
-# What's this
+# What's this more
 
 [Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
 
