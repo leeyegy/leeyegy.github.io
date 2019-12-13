@@ -14,9 +14,11 @@ date: 2019-12-13 16:63:24.000000000 +09:00
 ## OVERVIEW
 ### What's the main concern of this paper?
 >**Statement one:**
+
 Using denoiser to defend which is to constraint the difference between the l-th representations of target model (e.g., ResNet) activated by clean data $x$ and denoised data $\hat{x}$. 
 
 >**Statement two:**
+
 defend by change loss function in order to bypass the amplification effect of adversarial noise.
 
 ### What's the main idea/contribution?
