@@ -31,7 +31,7 @@ models trained using the proposed single-step adversarial training method are ro
  Unlike typical setting, we introduce dropout layer after each non-linear layer (i.e., **dropout-2D after conv2D+ReLU**, and **dropout-1D after FC+ReLU**) of the model, and further decay its dropout probability as training progress.
 
 > More details are as follows
-> 
+
 <div align=center>![在这里插入图片描述](https://img-blog.csdnimg.cn/20200902190155473.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODMxNjgwNg==,size_16,color_FFFFFF,t_70#pic_center)
 
 
