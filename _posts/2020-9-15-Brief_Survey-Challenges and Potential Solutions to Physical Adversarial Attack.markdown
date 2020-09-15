@@ -1,7 +1,7 @@
-[Challenge and Potential Solutions to Physical Adversarial Attack: a Brief Survey]()
+[Challenges and Potential Solutions to Physical Adversarial Attack: a Brief Survey]()
 >**key words:** Physical Adversarial Attack, Face Recognition, Image Classification, Road Sign, Object Detection, Person Detection
 
-## CHALLENGE
+## CHALLENGEs
 The challenges we may face while attacking in real world can be roughly divided into three categories: ***Hareware Limitation*** (e.g., camera, printer, etc.), ***Environmental Variability*** (e.g., distance and angle of the viewing camera, brightness, random noise, contrast, rotation, translation, etc. ) and ***Transferability***.
 
 > **Perturbation's Printability**
