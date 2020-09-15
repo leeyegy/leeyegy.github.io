@@ -2,7 +2,7 @@
 >**key words:** Physical Adversarial Attack, Face Recognition, Image Classification, Road Sign, Object Detection, Person Detection
 
 ## CHALLENGE
-The challenges we may face while attacking in real world can be roughly divided into two category: ***Hareware Limitation*** (e.g., camera, printer, etc.), ***Environmental Variability*** (e.g., distance and angle of the viewing camera, brightness, random noise, contrast, rotation, translation, etc. ) and ***Transferability***.
+The challenges we may face while attacking in real world can be roughly divided into three categories: ***Hareware Limitation*** (e.g., camera, printer, etc.), ***Environmental Variability*** (e.g., distance and angle of the viewing camera, brightness, random noise, contrast, rotation, translation, etc. ) and ***Transferability***.
 
 > **Perturbation's Printability**
 
