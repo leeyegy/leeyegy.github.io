@@ -1,5 +1,4 @@
 ## Challenge and Potential Solutions to Physical Adversarial Attack: a Brief Survey
-<center> By Leeyegy 
 
 >**key words:** Physical Adversarial Attack, Face Recognition, Image Classification, Road Sign, Object Detection, Person Detection
 
