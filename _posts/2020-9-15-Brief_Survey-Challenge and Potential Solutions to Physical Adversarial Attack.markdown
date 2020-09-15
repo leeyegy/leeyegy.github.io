@@ -98,7 +98,7 @@ It's introduced by [[1]](#r1) to improve the transferability of adversarial atta
 Given N object detectors associated with attack loss functions {fi}, the physical ensemble attack is cast as: 
 
 <div style="align: center">
-<img src="https://img-blog.csdnimg.cn/20200915161652280.png#pic_center"/>
+<img src="https://img-blog.csdnimg.cn/20200915165345740.png#pic_center"/>
 </div>
 
 
