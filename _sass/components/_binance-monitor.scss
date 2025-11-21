@@ -179,6 +179,32 @@
       color: #f44336;
     }
   }
+
+  &__symbol {
+    font-weight: 600;
+  }
+
+  &__row {
+    &--long {
+      .binance-positions__symbol,
+      .binance-positions__side {
+        color: #4caf50;
+      }
+      .binance-positions__side {
+        background: rgba(76, 175, 80, 0.15);
+      }
+    }
+
+    &--short {
+      .binance-positions__symbol,
+      .binance-positions__side {
+        color: #f44336;
+      }
+      .binance-positions__side {
+        background: rgba(244, 67, 54, 0.15);
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 540px) {
