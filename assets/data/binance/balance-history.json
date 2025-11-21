@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-21T15:08:16Z",
+  "generatedAt": "2025-11-21T15:09:18Z",
   "asset": "total_usd_value",
   "history": [
     {
@@ -28,6 +28,10 @@
     },
     {
       "timestamp": "2025-11-21T15:08:16Z",
+      "totalUsd": 1002.16734911
+    },
+    {
+      "timestamp": "2025-11-21T15:09:18Z",
       "totalUsd": 1002.16734911
     }
   ]
