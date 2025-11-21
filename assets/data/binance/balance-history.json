@@ -3,46 +3,6 @@
   "asset": "total_usd_value",
   "history": [
     {
-      "timestamp": "2025-11-20T23:56:00Z",
-      "totalUsd": 12432.18
-    },
-    {
-      "timestamp": "2025-11-20T23:57:00Z",
-      "totalUsd": 12431.02
-    },
-    {
-      "timestamp": "2025-11-20T23:58:00Z",
-      "totalUsd": 12436.44
-    },
-    {
-      "timestamp": "2025-11-20T23:59:00Z",
-      "totalUsd": 12435.11
-    },
-    {
-      "timestamp": "2025-11-21T00:00:00Z",
-      "totalUsd": 12438.77
-    },
-    {
-      "timestamp": "2025-11-21T15:07:15Z",
-      "totalUsd": 1002.16734911
-    },
-    {
-      "timestamp": "2025-11-21T15:08:16Z",
-      "totalUsd": 1002.16734911
-    },
-    {
-      "timestamp": "2025-11-21T15:09:18Z",
-      "totalUsd": 1002.16734911
-    },
-    {
-      "timestamp": "2025-11-21T15:10:20Z",
-      "totalUsd": 1002.16734911
-    },
-    {
-      "timestamp": "2025-11-21T15:11:21Z",
-      "totalUsd": 1002.16734911
-    },
-    {
       "timestamp": "2025-11-21T23:19:03+08:00",
       "totalUsd": 1002.16734911
     }
