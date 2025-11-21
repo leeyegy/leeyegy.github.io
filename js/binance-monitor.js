@@ -96,11 +96,11 @@
       symbolCell.classList.add('binance-positions__symbol');
 
       var sideCell = document.createElement('td');
-      var side = (position.side || '').toUpperCase();
+      var sideRaw = (position.side || '').toUpperCase();
+      var normalizedSide = sideRaw === 'SHORT' ? 'short' : 'long';
       var sideBadge = document.createElement('span');
-      var normalizedSide = side === 'SHORT' ? 'short' : 'long';
       sideBadge.className = 'binance-positions__side binance-positions__side--' + normalizedSide;
-      sideBadge.textContent = side || '--';
+      sideBadge.textContent = normalizedSide === 'short' ? 'Short' : 'Long';
       sideCell.appendChild(sideBadge);
 
       row.classList.add('binance-positions__row--' + normalizedSide);
