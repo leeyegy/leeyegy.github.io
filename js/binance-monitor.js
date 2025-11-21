@@ -100,7 +100,8 @@
       var normalizedSide = sideRaw === 'SHORT' ? 'short' : 'long';
       var sideBadge = document.createElement('span');
       sideBadge.className = 'binance-positions__side binance-positions__side--' + normalizedSide;
-      sideBadge.textContent = normalizedSide === 'short' ? 'Short' : 'Long';
+      sideBadge.textContent = normalizedSide === 'short' ? 'SHORT' : 'LONG';
+      sideCell.classList.add('binance-positions__side-cell', 'binance-positions__side-cell--' + normalizedSide);
       sideCell.appendChild(sideBadge);
 
       row.classList.add('binance-positions__row--' + normalizedSide);
