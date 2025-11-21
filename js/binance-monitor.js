@@ -89,16 +89,21 @@
 
     positions.forEach(function (position) {
       var row = document.createElement('tr');
+      row.classList.add('binance-positions__row');
 
       var symbolCell = document.createElement('td');
       symbolCell.textContent = position.symbol || '--';
+      symbolCell.classList.add('binance-positions__symbol');
 
       var sideCell = document.createElement('td');
       var side = (position.side || '').toUpperCase();
       var sideBadge = document.createElement('span');
-      sideBadge.className = 'binance-positions__side binance-positions__side--' + (side === 'SHORT' ? 'short' : 'long');
+      var normalizedSide = side === 'SHORT' ? 'short' : 'long';
+      sideBadge.className = 'binance-positions__side binance-positions__side--' + normalizedSide;
       sideBadge.textContent = side || '--';
       sideCell.appendChild(sideBadge);
+
+      row.classList.add('binance-positions__row--' + normalizedSide);
 
       var sizeCell = document.createElement('td');
       sizeCell.textContent = formatSize(position.size);
