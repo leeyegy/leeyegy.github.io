@@ -168,6 +168,19 @@
     }
   }
 
+  &__side-cell {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+
+    &--long {
+      color: #4caf50;
+    }
+
+    &--short {
+      color: #f44336;
+    }
+  }
+
   &__pnl {
     font-variant-numeric: tabular-nums;
 
