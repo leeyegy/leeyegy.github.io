@@ -122,13 +122,17 @@
       var openedCell = document.createElement('td');
       openedCell.textContent = formatDateTime(position.openedAt);
 
+      var updatedCell = document.createElement('td');
+      updatedCell.textContent = formatDateTime(position.reportedAt || position.updatedAt);
+
       [
         symbolCell,
         sideCell,
         sizeCell,
         entryCell,
         pnlCell,
-        openedCell
+        openedCell,
+        updatedCell
       ].forEach(function (cell) {
         row.appendChild(cell);
       });
