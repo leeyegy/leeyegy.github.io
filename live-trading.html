@@ -30,9 +30,6 @@ force_panel_cover: true
 <section class="binance-positions">
   <div class="binance-positions__header">
     <h3>Open Positions</h3>
-    <p class="binance-positions__hint">
-      Server writes open positions into <code>assets/data/binance/positions.json</code>; each entry tracks side, size, entry price, unrealized PnL, and open time.
-    </p>
   </div>
   <div class="binance-positions__table-wrapper">
     <table
@@ -47,6 +44,7 @@ force_panel_cover: true
           <th>Entry Price</th>
           <th>Unrealized PnL</th>
           <th>Opened At</th>
+          <th>Last Update</th>
         </tr>
       </thead>
       <tbody id="binance-positions-body">
