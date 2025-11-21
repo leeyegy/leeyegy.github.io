@@ -1,29 +1,20 @@
 [
   {
-    "symbol": "BNBUSDT",
+    "symbol": "DOGEUSDT",
     "side": "LONG",
-    "size": 0.36,
+    "size": 2791.0,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.21397779,
-    "openedAt": "2025-11-22T03:30:15+08:00",
-    "reportedAt": "2025-11-22T03:39:45+08:00"
-  },
-  {
-    "symbol": "XRPUSDT",
-    "side": "LONG",
-    "size": 201.8,
-    "entryPrice": 0.0,
-    "unrealizedPnl": -1.2108,
-    "openedAt": "2025-11-22T03:30:14+08:00",
-    "reportedAt": "2025-11-22T03:39:45+08:00"
+    "unrealizedPnl": -0.56632181,
+    "openedAt": "2025-11-22T03:39:51+08:00",
+    "reportedAt": "2025-11-22T03:42:49+08:00"
   },
   {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "size": 0.003,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.54111558,
+    "unrealizedPnl": -0.9603,
     "openedAt": "2025-11-22T03:30:15+08:00",
-    "reportedAt": "2025-11-22T03:39:45+08:00"
+    "reportedAt": "2025-11-22T03:42:49+08:00"
   }
 ]
