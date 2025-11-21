@@ -5,7 +5,8 @@
     "size": 0.42,
     "entryPrice": 36750.25,
     "unrealizedPnl": 482.33,
-    "openedAt": "2025-11-18T08:12:04Z"
+    "openedAt": "2025-11-18T08:12:04Z",
+    "reportedAt": "2025-11-21T00:05:00Z"
   },
   {
     "symbol": "ETHUSDT",
@@ -13,7 +14,8 @@
     "size": 5.0,
     "entryPrice": 2098.6,
     "unrealizedPnl": -126.72,
-    "openedAt": "2025-11-19T14:32:55Z"
+    "openedAt": "2025-11-19T14:32:55Z",
+    "reportedAt": "2025-11-21T00:05:00Z"
   },
   {
     "symbol": "BNBUSDT",
@@ -21,7 +23,8 @@
     "size": 18,
     "entryPrice": 248.12,
     "unrealizedPnl": 96.44,
-    "openedAt": "2025-11-20T02:45:10Z"
+    "openedAt": "2025-11-20T02:45:10Z",
+    "reportedAt": "2025-11-21T00:05:00Z"
   },
   {
     "symbol": "SOLUSDT",
@@ -29,7 +32,8 @@
     "size": 65,
     "entryPrice": 59.12,
     "unrealizedPnl": 218.5,
-    "openedAt": "2025-11-21T01:05:22Z"
+    "openedAt": "2025-11-21T01:05:22Z",
+    "reportedAt": "2025-11-21T00:05:00Z"
   }
 ]
 
