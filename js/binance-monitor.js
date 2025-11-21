@@ -102,6 +102,8 @@
       sideBadge.className = 'binance-positions__side binance-positions__side--' + normalizedSide;
       sideBadge.textContent = normalizedSide === 'short' ? 'SHORT' : 'LONG';
       sideCell.classList.add('binance-positions__side-cell', 'binance-positions__side-cell--' + normalizedSide);
+      sideCell.style.color = normalizedSide === 'short' ? '#f44336' : '#4caf50';
+      sideBadge.style.color = normalizedSide === 'short' ? '#f44336' : '#4caf50';
       sideCell.appendChild(sideBadge);
 
       row.classList.add('binance-positions__row--' + normalizedSide);
@@ -119,6 +121,7 @@
         'binance-positions__pnl',
         pnlValue >= 0 ? 'binance-positions__pnl--positive' : 'binance-positions__pnl--negative'
       );
+      pnlCell.style.color = pnlValue >= 0 ? '#4caf50' : '#f44336';
 
       var openedCell = document.createElement('td');
       openedCell.textContent = formatDateTime(position.openedAt);
