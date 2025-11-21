@@ -15,9 +15,14 @@
 
   var statusEl = $('#binance-data-status');
   var lastUpdatedEl = $('#binance-last-updated');
-  var dataUrl =
+  var historyUrl =
     chartCanvas.getAttribute('data-source') ||
     '/assets/data/binance/balance-history.json';
+  var positionsTable = document.querySelector('.binance-positions__table');
+  var positionsBody = document.querySelector('#binance-positions-body');
+  var positionsUrl =
+    (positionsTable && positionsTable.getAttribute('data-source')) ||
+    '/assets/data/binance/positions.json';
 
   function formatTimeLabel(timestamp) {
     var date = new Date(timestamp);
@@ -43,6 +48,88 @@
 
     var className = 'binance-monitor__chip--' + state;
     statusEl.classList.add(className);
+  }
+
+  function formatUsd(value) {
+    return '$' + Number(value || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function formatSize(value) {
+    return Number(value || 0).toLocaleString('en-US', { maximumFractionDigits: 6 });
+  }
+
+  function formatDateTime(timestamp) {
+    if (!timestamp) return '--';
+    var date = new Date(timestamp);
+    if (Number.isNaN(date.getTime())) {
+      return timestamp;
+    }
+    return date.toLocaleString('en-US', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit'
+    });
+  }
+
+  function renderPositions(positions) {
+    if (!positionsBody) return;
+    positionsBody.innerHTML = '';
+    if (!Array.isArray(positions) || positions.length === 0) {
+      var emptyRow = document.createElement('tr');
+      var emptyCell = document.createElement('td');
+      emptyCell.colSpan = 6;
+      emptyCell.textContent = 'No open positions.';
+      emptyRow.appendChild(emptyCell);
+      positionsBody.appendChild(emptyRow);
+      return;
+    }
+
+    positions.forEach(function (position) {
+      var row = document.createElement('tr');
+
+      var symbolCell = document.createElement('td');
+      symbolCell.textContent = position.symbol || '--';
+
+      var sideCell = document.createElement('td');
+      var side = (position.side || '').toUpperCase();
+      var sideBadge = document.createElement('span');
+      sideBadge.className = 'binance-positions__side binance-positions__side--' + (side === 'SHORT' ? 'short' : 'long');
+      sideBadge.textContent = side || '--';
+      sideCell.appendChild(sideBadge);
+
+      var sizeCell = document.createElement('td');
+      sizeCell.textContent = formatSize(position.size);
+
+      var entryCell = document.createElement('td');
+      entryCell.textContent = formatUsd(position.entryPrice);
+
+      var pnlCell = document.createElement('td');
+      var pnlValue = Number(position.unrealizedPnl || 0);
+      pnlCell.textContent = formatUsd(pnlValue);
+      pnlCell.classList.add(
+        'binance-positions__pnl',
+        pnlValue >= 0 ? 'binance-positions__pnl--positive' : 'binance-positions__pnl--negative'
+      );
+
+      var openedCell = document.createElement('td');
+      openedCell.textContent = formatDateTime(position.openedAt);
+
+      [
+        symbolCell,
+        sideCell,
+        sizeCell,
+        entryCell,
+        pnlCell,
+        openedCell
+      ].forEach(function (cell) {
+        row.appendChild(cell);
+      });
+
+      positionsBody.appendChild(row);
+    });
   }
 
   function buildDataset(history) {
@@ -181,22 +268,33 @@
     }
   }
 
-  async function fetchHistory() {
+  async function fetchJson(url) {
+    var response = await fetch(url + (url.indexOf('?') === -1 ? '?' : '&') + 't=' + Date.now(), {
+      cache: 'no-store'
+    });
+    if (!response.ok) {
+      throw new Error('Network error: ' + response.status + ' ' + url);
+    }
+    return response.json();
+  }
+
+  async function fetchDashboardData() {
     try {
       setStatus('pending', 'Loading...');
-      var response = await fetch(dataUrl + '?t=' + Date.now(), {
-        cache: 'no-store'
-      });
-      if (!response.ok) {
-        throw new Error('Network error: ' + response.status);
-      }
-      var payload = await response.json();
-      var dataset = buildDataset(payload.history);
+      var results = await Promise.all([fetchJson(historyUrl), fetchJson(positionsUrl)]);
+      var historyPayload = results[0];
+      var positionsPayload = results[1];
+
+      var dataset = buildDataset(historyPayload.history);
       if (!dataset.data.length) {
         throw new Error('No data available');
       }
       updateChart(dataset);
-      updateLastUpdated(payload.generatedAt || dataset.rawTimestamps.slice(-1)[0]);
+      updateLastUpdated(historyPayload.generatedAt || dataset.rawTimestamps.slice(-1)[0]);
+      var positions = Array.isArray(positionsPayload)
+        ? positionsPayload
+        : positionsPayload.positions;
+      renderPositions(positions || []);
       setStatus('ok', 'Up to date');
     } catch (error) {
       console.error('[Binance Monitor] Failed to update data', error);
@@ -208,10 +306,10 @@
     if (refreshTimer) {
       clearInterval(refreshTimer);
     }
-    refreshTimer = setInterval(fetchHistory, REFRESH_INTERVAL_MS);
+    refreshTimer = setInterval(fetchDashboardData, REFRESH_INTERVAL_MS);
   }
 
-  fetchHistory();
+  fetchDashboardData();
   startPolling();
 })();
 
