@@ -1,5 +1,4 @@
 (function () {
-  var DATA_URL = '/assets/data/binance/balance-history.json';
   var REFRESH_INTERVAL_MS = 60 * 1000;
 
   var chartInstance = null;
@@ -16,6 +15,9 @@
 
   var statusEl = $('#binance-data-status');
   var lastUpdatedEl = $('#binance-last-updated');
+  var dataUrl =
+    chartCanvas.getAttribute('data-source') ||
+    '/assets/data/binance/balance-history.json';
 
   function formatTimeLabel(timestamp) {
     var date = new Date(timestamp);
@@ -182,7 +184,7 @@
   async function fetchHistory() {
     try {
       setStatus('pending', 'Loading...');
-      var response = await fetch(DATA_URL + '?t=' + Date.now(), {
+      var response = await fetch(dataUrl + '?t=' + Date.now(), {
         cache: 'no-store'
       });
       if (!response.ok) {
