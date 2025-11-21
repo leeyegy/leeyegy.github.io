@@ -2,6 +2,26 @@
 layout: default
 ---
 
+<section class="binance-monitor">
+  <header class="binance-monitor__header">
+    <h2>Binance Balance Monitor</h2>
+    <p class="binance-monitor__description">
+      Server pushes minute snapshots into <code>assets/data/binance/balance-history.json</code>. This page polls the file every minute and redraws the curve automatically.
+    </p>
+    <p class="binance-monitor__status">
+      Last updated:
+      <span id="binance-last-updated" class="binance-monitor__status-value">--</span>
+      <span id="binance-data-status" class="binance-monitor__chip binance-monitor__chip--pending">Loading</span>
+    </p>
+  </header>
+  <div class="binance-monitor__chart-wrapper">
+    <canvas id="binance-balance-chart" width="800" height="320"></canvas>
+  </div>
+  <footer class="binance-monitor__footer">
+    <p>Reminder: append chronological entries with ISO timestamps and USD-converted totals on the server before syncing to GitHub.</p>
+  </footer>
+</section>
+
 <div class="main-post-list hidden">
 
   <ol class="post-list">
