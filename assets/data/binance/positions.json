@@ -1,7 +1,7 @@
 [
   {
     "symbol": "BTCUSDT",
-    "side": "LONG",
+    "side": "long",
     "size": 0.42,
     "entryPrice": 36750.25,
     "unrealizedPnl": 482.33,
