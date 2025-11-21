@@ -27,3 +27,34 @@ force_panel_cover: true
   </footer>
 </section>
 
+<section class="binance-positions">
+  <div class="binance-positions__header">
+    <h3>Open Positions</h3>
+    <p class="binance-positions__hint">
+      Server writes open positions into <code>assets/data/binance/positions.json</code>; each entry tracks side, size, entry price, unrealized PnL, and open time.
+    </p>
+  </div>
+  <div class="binance-positions__table-wrapper">
+    <table
+      class="binance-positions__table"
+      data-source="{{ '/assets/data/binance/positions.json' | relative_url }}"
+    >
+      <thead>
+        <tr>
+          <th>Asset</th>
+          <th>Side</th>
+          <th>Size</th>
+          <th>Entry Price</th>
+          <th>Unrealized PnL</th>
+          <th>Opened At</th>
+        </tr>
+      </thead>
+      <tbody id="binance-positions-body">
+        <tr id="binance-positions-empty">
+          <td colspan="6">Awaiting position data...</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
