@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "symbol": "ETHUSDT",
+    "side": "LONG",
+    "size": 0.052,
+    "entryPrice": 0.0,
+    "unrealizedPnl": -0.05512,
+    "openedAt": "2025-11-23T05:07:12+08:00",
+    "reportedAt": "2025-11-23T05:07:58+08:00"
+  }
+]
