@@ -4,26 +4,26 @@
     "side": "LONG",
     "size": 1.52,
     "entryPrice": 0.0,
-    "unrealizedPnl": -2.0064,
+    "unrealizedPnl": -1.96024641,
     "openedAt": "2025-11-22T15:53:02+08:00",
-    "reportedAt": "2025-11-22T16:20:57+08:00"
+    "reportedAt": "2025-11-22T16:22:00+08:00"
   },
   {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "size": 0.105,
     "entryPrice": 0.0,
-    "unrealizedPnl": -2.2869,
+    "unrealizedPnl": -2.37251162,
     "openedAt": "2025-11-22T15:53:02+08:00",
-    "reportedAt": "2025-11-22T16:20:57+08:00"
+    "reportedAt": "2025-11-22T16:22:00+08:00"
   },
   {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "size": 0.004,
     "entryPrice": 0.0,
-    "unrealizedPnl": -1.2508,
+    "unrealizedPnl": -1.14375469,
     "openedAt": "2025-11-22T15:53:01+08:00",
-    "reportedAt": "2025-11-22T16:20:57+08:00"
+    "reportedAt": "2025-11-22T16:22:00+08:00"
   }
 ]
