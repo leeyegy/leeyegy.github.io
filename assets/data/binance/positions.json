@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "symbol": "DOGEUSDT",
+    "side": "LONG",
+    "size": 90.0,
+    "entryPrice": 0.0,
+    "unrealizedPnl": 0.0048429,
+    "openedAt": "2025-11-23T18:40:29+08:00",
+    "reportedAt": "2025-11-23T18:41:13+08:00"
+  }
+]
