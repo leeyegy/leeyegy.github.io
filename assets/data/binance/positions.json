@@ -4,26 +4,26 @@
     "side": "LONG",
     "size": 5.82,
     "entryPrice": 0.0,
-    "unrealizedPnl": 1.83389451,
+    "unrealizedPnl": 2.0952,
     "openedAt": "2025-11-23T21:58:16+08:00",
-    "reportedAt": "2025-11-23T22:11:12+08:00"
+    "reportedAt": "2025-11-23T22:12:14+08:00"
   },
   {
     "symbol": "DOGEUSDT",
     "side": "LONG",
     "size": 3554.0,
     "entryPrice": 0.0,
-    "unrealizedPnl": 2.19242706,
+    "unrealizedPnl": 2.33455152,
     "openedAt": "2025-11-23T21:30:47+08:00",
-    "reportedAt": "2025-11-23T22:11:12+08:00"
+    "reportedAt": "2025-11-23T22:12:14+08:00"
   },
   {
     "symbol": "XRPUSDT",
     "side": "SHORT",
     "size": 246.0,
     "entryPrice": 0.0,
-    "unrealizedPnl": -3.31553388,
+    "unrealizedPnl": -3.813,
     "openedAt": "2025-11-23T21:30:47+08:00",
-    "reportedAt": "2025-11-23T22:11:12+08:00"
+    "reportedAt": "2025-11-23T22:12:14+08:00"
   }
 ]
