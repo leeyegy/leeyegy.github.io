@@ -1,20 +1,11 @@
 [
   {
-    "symbol": "SOLUSDT",
-    "side": "SHORT",
-    "size": 2.51,
-    "entryPrice": 0.0,
-    "unrealizedPnl": 0.1757,
-    "openedAt": "2025-11-24T14:55:48+08:00",
-    "reportedAt": "2025-11-24T15:08:23+08:00"
-  },
-  {
     "symbol": "ETHUSDT",
-    "side": "SHORT",
-    "size": 0.077,
+    "side": "LONG",
+    "size": 0.161,
     "entryPrice": 0.0,
-    "unrealizedPnl": 0.14784,
-    "openedAt": "2025-11-24T14:55:48+08:00",
-    "reportedAt": "2025-11-24T15:08:23+08:00"
+    "unrealizedPnl": 0.05957,
+    "openedAt": "2025-11-24T15:08:42+08:00",
+    "reportedAt": "2025-11-24T15:09:25+08:00"
   }
 ]
