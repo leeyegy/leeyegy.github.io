@@ -1,20 +1,38 @@
 [
   {
     "symbol": "SOLUSDT",
-    "side": "LONG",
-    "size": 3.48,
+    "side": "SHORT",
+    "size": 3.77,
     "entryPrice": 0.0,
-    "unrealizedPnl": 4.70440003,
-    "openedAt": "2025-11-24T13:08:44+08:00",
-    "reportedAt": "2025-11-24T13:22:09+08:00"
+    "unrealizedPnl": -0.4524,
+    "openedAt": "2025-11-24T13:22:44+08:00",
+    "reportedAt": "2025-11-24T13:23:10+08:00"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "side": "LONG",
+    "size": 0.175,
+    "entryPrice": 0.0,
+    "unrealizedPnl": 0.17675,
+    "openedAt": "2025-11-24T13:22:44+08:00",
+    "reportedAt": "2025-11-24T13:23:10+08:00"
+  },
+  {
+    "symbol": "BNBUSDT",
+    "side": "LONG",
+    "size": 0.59,
+    "entryPrice": 0.0,
+    "unrealizedPnl": 0.1652,
+    "openedAt": "2025-11-24T13:22:44+08:00",
+    "reportedAt": "2025-11-24T13:23:10+08:00"
   },
   {
     "symbol": "XRPUSDT",
-    "side": "LONG",
-    "size": 222.1,
+    "side": "SHORT",
+    "size": 240.4,
     "entryPrice": 0.0,
-    "unrealizedPnl": 7.72772963,
-    "openedAt": "2025-11-24T13:08:43+08:00",
-    "reportedAt": "2025-11-24T13:22:09+08:00"
+    "unrealizedPnl": -0.14424,
+    "openedAt": "2025-11-24T13:22:44+08:00",
+    "reportedAt": "2025-11-24T13:23:10+08:00"
   }
 ]
