@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "symbol": "SOLUSDT",
+    "side": "SHORT",
+    "size": 3.81,
+    "entryPrice": 0.0,
+    "unrealizedPnl": -0.1143,
+    "openedAt": "2025-11-24T14:41:36+08:00",
+    "reportedAt": "2025-11-24T14:41:51+08:00"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "side": "LONG",
+    "size": 242.0,
+    "entryPrice": 0.0,
+    "unrealizedPnl": 0.14359796,
+    "openedAt": "2025-11-24T14:41:36+08:00",
+    "reportedAt": "2025-11-24T14:41:51+08:00"
+  }
+]
