@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "symbol": "ETHUSDT",
+    "side": "LONG",
+    "size": 0.205,
+    "entryPrice": 0.0,
+    "unrealizedPnl": -0.07775944,
+    "openedAt": "2025-11-24T21:44:19+08:00",
+    "reportedAt": "2025-11-24T21:45:46+08:00"
+  },
+  {
+    "symbol": "BNBUSDT",
+    "side": "SHORT",
+    "size": 0.37,
+    "entryPrice": 0.0,
+    "unrealizedPnl": -0.03441169,
+    "openedAt": "2025-11-24T21:44:19+08:00",
+    "reportedAt": "2025-11-24T21:45:46+08:00"
+  }
+]
