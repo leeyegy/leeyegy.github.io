@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "symbol": "SOLUSDT",
+    "side": "LONG",
+    "size": 3.25,
+    "entryPrice": 0.0,
+    "unrealizedPnl": 1.06655685,
+    "openedAt": "2025-11-26T07:18:36+08:00",
+    "reportedAt": "2025-11-26T07:19:24+08:00"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "side": "LONG",
+    "size": 0.152,
+    "entryPrice": 0.0,
+    "unrealizedPnl": 0.13537934,
+    "openedAt": "2025-11-26T07:18:37+08:00",
+    "reportedAt": "2025-11-26T07:19:24+08:00"
+  }
+]
