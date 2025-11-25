@@ -4,17 +4,17 @@
     "side": "LONG",
     "size": 1937.0,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.09685,
+    "unrealizedPnl": -0.5473962,
     "openedAt": "2025-11-25T17:20:54+08:00",
-    "reportedAt": "2025-11-25T17:25:09+08:00"
+    "reportedAt": "2025-11-25T17:26:10+08:00"
   },
   {
     "symbol": "XRPUSDT",
     "side": "LONG",
     "size": 131.1,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.05941976,
+    "unrealizedPnl": -0.47893976,
     "openedAt": "2025-11-25T17:20:54+08:00",
-    "reportedAt": "2025-11-25T17:25:09+08:00"
+    "reportedAt": "2025-11-25T17:26:10+08:00"
   }
 ]
