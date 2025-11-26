@@ -1,20 +1,11 @@
 [
   {
-    "symbol": "SOLUSDT",
-    "side": "LONG",
-    "size": 7.4,
-    "entryPrice": 0.0,
-    "unrealizedPnl": -1.24710216,
-    "openedAt": "2025-11-26T18:54:51+08:00",
-    "reportedAt": "2025-11-26T19:10:15+08:00"
-  },
-  {
     "symbol": "BNBUSDT",
     "side": "LONG",
-    "size": 0.66,
+    "size": 2.89,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.2972269,
-    "openedAt": "2025-11-26T18:54:51+08:00",
-    "reportedAt": "2025-11-26T19:10:15+08:00"
+    "unrealizedPnl": -1.24678172,
+    "openedAt": "2025-11-26T19:11:27+08:00",
+    "reportedAt": "2025-11-26T19:12:18+08:00"
   }
 ]
