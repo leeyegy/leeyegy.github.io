@@ -4,17 +4,17 @@
     "side": "LONG",
     "size": 0.13,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.0715,
+    "unrealizedPnl": -0.08952717,
     "openedAt": "2025-11-27T06:24:52+08:00",
-    "reportedAt": "2025-11-27T06:52:18+08:00"
+    "reportedAt": "2025-11-27T06:53:21+08:00"
   },
   {
     "symbol": "DOGEUSDT",
     "side": "LONG",
     "size": 3774.0,
     "entryPrice": 0.0,
-    "unrealizedPnl": -1.05672,
+    "unrealizedPnl": -0.99882684,
     "openedAt": "2025-11-27T06:24:52+08:00",
-    "reportedAt": "2025-11-27T06:52:18+08:00"
+    "reportedAt": "2025-11-27T06:53:21+08:00"
   }
 ]
