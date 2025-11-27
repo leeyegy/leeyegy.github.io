@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "symbol": "BTCUSDT",
+    "side": "LONG",
+    "size": 0.004,
+    "entryPrice": 0.0,
+    "unrealizedPnl": -0.07303661,
+    "openedAt": "2025-11-28T07:23:51+08:00",
+    "reportedAt": "2025-11-28T07:24:20+08:00"
+  }
+]
