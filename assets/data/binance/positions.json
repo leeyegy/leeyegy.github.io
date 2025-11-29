@@ -4,17 +4,17 @@
     "side": "LONG",
     "size": 0.333,
     "entryPrice": 0.0,
-    "unrealizedPnl": 0.74259,
+    "unrealizedPnl": 0.65741596,
     "openedAt": "2025-11-29T18:21:56+08:00",
-    "reportedAt": "2025-11-29T19:23:44+08:00"
+    "reportedAt": "2025-11-29T19:24:46+08:00"
   },
   {
     "symbol": "BTCUSDT",
     "side": "SHORT",
     "size": 0.011,
     "entryPrice": 0.0,
-    "unrealizedPnl": 19.5206,
+    "unrealizedPnl": 19.76586965,
     "openedAt": "2025-11-29T00:00:37+08:00",
-    "reportedAt": "2025-11-29T19:23:44+08:00"
+    "reportedAt": "2025-11-29T19:24:46+08:00"
   }
 ]
