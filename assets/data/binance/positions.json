@@ -4,17 +4,17 @@
     "side": "LONG",
     "size": 1.5,
     "entryPrice": 0.0,
-    "unrealizedPnl": -4.32,
+    "unrealizedPnl": -4.395,
     "openedAt": "2025-12-01T00:46:30+08:00",
-    "reportedAt": "2025-12-01T07:11:41+08:00"
+    "reportedAt": "2025-12-01T07:12:44+08:00"
   },
   {
     "symbol": "ETHUSDT",
     "side": "LONG",
     "size": 0.065,
     "entryPrice": 0.0,
-    "unrealizedPnl": -1.70105,
+    "unrealizedPnl": -1.7121,
     "openedAt": "2025-12-01T00:46:30+08:00",
-    "reportedAt": "2025-12-01T07:11:41+08:00"
+    "reportedAt": "2025-12-01T07:12:44+08:00"
   }
 ]
