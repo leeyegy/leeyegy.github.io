@@ -1,20 +1,20 @@
 [
   {
-    "symbol": "XRPUSDT",
+    "symbol": "DOGEUSDT",
     "side": "SHORT",
-    "size": 344.5,
+    "size": 5175.0,
     "entryPrice": 0.0,
-    "unrealizedPnl": 2.4115,
-    "openedAt": "2025-12-01T20:13:45+08:00",
-    "reportedAt": "2025-12-01T22:10:58+08:00"
+    "unrealizedPnl": -0.1035,
+    "openedAt": "2025-12-01T22:11:29+08:00",
+    "reportedAt": "2025-12-01T22:11:59+08:00"
   },
   {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "size": 0.008,
     "entryPrice": 0.0,
-    "unrealizedPnl": -3.20453478,
+    "unrealizedPnl": -3.684,
     "openedAt": "2025-12-01T19:02:58+08:00",
-    "reportedAt": "2025-12-01T22:10:58+08:00"
+    "reportedAt": "2025-12-01T22:11:59+08:00"
   }
 ]
