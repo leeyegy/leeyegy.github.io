@@ -1,20 +1,20 @@
 [
   {
-    "symbol": "ETHUSDT",
+    "symbol": "SOLUSDT",
     "side": "SHORT",
-    "size": 0.256,
+    "size": 5.62,
     "entryPrice": 0.0,
-    "unrealizedPnl": -8.16934896,
-    "openedAt": "2025-12-02T00:11:00+08:00",
-    "reportedAt": "2025-12-02T04:13:06+08:00"
+    "unrealizedPnl": -0.07785206,
+    "openedAt": "2025-12-02T04:13:19+08:00",
+    "reportedAt": "2025-12-02T04:14:08+08:00"
   },
   {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "size": 0.008,
     "entryPrice": 0.0,
-    "unrealizedPnl": -8.11376185,
+    "unrealizedPnl": -8.5096,
     "openedAt": "2025-12-01T19:02:58+08:00",
-    "reportedAt": "2025-12-02T04:13:06+08:00"
+    "reportedAt": "2025-12-02T04:14:08+08:00"
   }
 ]
