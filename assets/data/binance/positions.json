@@ -1,20 +1,20 @@
 [
   {
-    "symbol": "DOGEUSDT",
+    "symbol": "ETHUSDT",
     "side": "SHORT",
-    "size": 5169.0,
+    "size": 0.25,
     "entryPrice": 0.0,
-    "unrealizedPnl": -1.49901,
-    "openedAt": "2025-12-02T06:13:16+08:00",
-    "reportedAt": "2025-12-02T08:11:32+08:00"
+    "unrealizedPnl": 0.36,
+    "openedAt": "2025-12-02T08:12:06+08:00",
+    "reportedAt": "2025-12-02T08:12:33+08:00"
   },
   {
     "symbol": "BTCUSDT",
     "side": "LONG",
     "size": 0.008,
     "entryPrice": 0.0,
-    "unrealizedPnl": -1.2352,
+    "unrealizedPnl": -1.9624,
     "openedAt": "2025-12-01T19:02:58+08:00",
-    "reportedAt": "2025-12-02T08:11:32+08:00"
+    "reportedAt": "2025-12-02T08:12:33+08:00"
   }
 ]
