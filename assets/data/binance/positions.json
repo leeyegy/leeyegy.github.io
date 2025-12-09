@@ -4,17 +4,17 @@
     "side": "LONG",
     "size": 0.018,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.23904,
+    "unrealizedPnl": -0.25362,
     "openedAt": "2025-12-08T12:12:23+08:00",
-    "reportedAt": "2025-12-09T11:30:53+08:00"
+    "reportedAt": "2025-12-09T11:31:58+08:00"
   },
   {
     "symbol": "BNBUSDT",
     "side": "LONG",
     "size": 0.04,
     "entryPrice": 0.0,
-    "unrealizedPnl": -0.45809413,
+    "unrealizedPnl": -0.45660275,
     "openedAt": "2025-12-08T12:12:24+08:00",
-    "reportedAt": "2025-12-09T11:30:53+08:00"
+    "reportedAt": "2025-12-09T11:31:58+08:00"
   }
 ]
